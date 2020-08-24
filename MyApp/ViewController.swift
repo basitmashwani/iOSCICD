@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         if let firstNum = firstNumber, let secondNum = secondNumber {
         let total = multiplyNumbers(firstNum, secondNum: secondNum)
             
-              resultLabel.text = "The result is \(total)"
+              resultLabel.text = "The total result is \(total)"
         }
         
       
