@@ -15,10 +15,11 @@ import AppCenter
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+ 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //initialize MSCenter
         MSAppCenter.start("83bc2096-819e-4087-a6d1-f1eb236ba9ab", withServices:[
           MSAnalytics.self,
           MSCrashes.self
