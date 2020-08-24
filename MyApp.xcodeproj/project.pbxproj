@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66216DE324CE34C00045F5EB /* RetirementCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66216DE224CE34C00045F5EB /* RetirementCalculatorUITests.swift */; };
 		667F586324CE2E3F00851F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667F586224CE2E3F00851F6E /* AppDelegate.swift */; };
 		667F586524CE2E3F00851F6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667F586424CE2E3F00851F6E /* SceneDelegate.swift */; };
 		667F586724CE2E3F00851F6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667F586624CE2E3F00851F6E /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		0BEB2647B9138CF6F0E82F55 /* Pods-MyApp-MyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp-MyAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MyApp-MyAppUITests/Pods-MyApp-MyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		246CF15640BD857B53A30B69 /* Pods-MyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MyAppTests/Pods-MyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4E9B21EEDFD0CA374D8FFBB0 /* Pods-MyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppTests.release.xcconfig"; path = "Target Support Files/Pods-MyAppTests/Pods-MyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		66216DE224CE34C00045F5EB /* RetirementCalculatorUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorUITests.swift; sourceTree = "<group>"; };
 		667F585F24CE2E3F00851F6E /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667F586224CE2E3F00851F6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667F586424CE2E3F00851F6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				667F588424CE2E4300851F6E /* MyAppUITests.swift */,
+				66216DE224CE34C00045F5EB /* RetirementCalculatorUITests.swift */,
 				667F588624CE2E4300851F6E /* Info.plist */,
 			);
 			path = MyAppUITests;
@@ -165,7 +168,6 @@
 				246CF15640BD857B53A30B69 /* Pods-MyAppTests.debug.xcconfig */,
 				4E9B21EEDFD0CA374D8FFBB0 /* Pods-MyAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -390,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66216DE324CE34C00045F5EB /* RetirementCalculatorUITests.swift in Sources */,
 				667F588524CE2E4300851F6E /* MyAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
